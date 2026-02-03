@@ -19,8 +19,25 @@
     "write-test": "npx tsx examples/test-write.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ldap",
+    "ldaprecord",
+    "adonisjs",
+    "typescript",
+    "node",
+    "ldapjs",
+    "ldapts",
+    "ldaprecord-node",
+    "ldaprecord-refactor",
+    "ldaprecord-refactor-node",
+    "ldaprecord-refactor-adonisjs",
+    "ldaprecord-refactor-typescript",
+    "ldaprecord-refactor-node-adonisjs",
+    "ldaprecord-refactor-node-typescript",
+    "ldaprecord-refactor-adonisjs-typescript",
+    "ldaprecord-refactor-node-adonisjs-typescript"
+  ],
+  "author": "ones006@gmail.com",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
