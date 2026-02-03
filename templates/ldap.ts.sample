@@ -1,0 +1,19 @@
+/**
+ * Config/ldap.ts
+ * 
+ * LdapRecord Configuration
+ */
+import Env from '@ioc:Adonis/Core/Env';
+
+const ldapConfig = {
+  hosts: [Env.get('LDAP_HOST', '127.0.0.1')],
+  port: Env.get('LDAP_PORT', 389),
+  username: Env.get('LDAP_USERNAME', ''),
+  password: Env.get('LDAP_PASSWORD', ''),
+  baseDn: Env.get('LDAP_BASE_DN', ''),
+  useSsl: Env.get('LDAP_SSL', false),
+  useTls: Env.get('LDAP_TLS', false),
+  timeout: Env.get('LDAP_TIMEOUT', 5) * 1000,
+};
+
+export default ldapConfig;
