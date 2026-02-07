@@ -13,7 +13,7 @@ Refactor of the famous PHP LdapRecord library to Node.js / TypeScript. Designed 
 ## Installation
 
 ```bash
-npm install ldaprecord-node
+npm install @ones006/ldaprecord-node
 ```
 
 ## Quick Start (Core)

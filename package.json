@@ -1,5 +1,5 @@
 {
-  "name": "ldaprecord-refactor",
+  "name": "@ones006/ldaprecord-node",
   "version": "1.0.0",
   "description": "LdapRecord implementation for Node.js and AdonisJS",
   "type": "module",
